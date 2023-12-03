@@ -1,0 +1,91 @@
+body { 
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #232733;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  nav {
+    list-style: none;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 600; /* Apply Roboto semi-bold font weight */
+    padding: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    color: #000;
+    background-color: #f1f1f1;
+  }
+  .hero {
+    height: 500px;
+    background-image: url("banner.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-text {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .hero-subtext {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  
+  .services {
+    padding: 20px;
+  }
+  
+  .services-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .services-list {
+    list-style: none;
+    margin: 0;
+  }
+  
+  .services-list li {
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    padding: 20px;
+  }
+  
+  .about-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    font-size: 16px;
+    font-weight: 4
+  }
